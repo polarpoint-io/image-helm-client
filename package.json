@@ -1,6 +1,6 @@
 {
   "name": "docker-helm-client",
-  "version": "3.9.15",
+  "version": "3.9.16",
   "description": "",
   "scripts": {
     "release": "standard-version",
