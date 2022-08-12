@@ -13,7 +13,8 @@ RUN  apt-get update \
 RUN    apt-get install apt-transport-https --yes && \
     echo "deb [trusted=yes] https://baltocdn.com/helm/stable/debian/ all main" |  tee /etc/apt/sources.list.d/helm-stable-debian.list
 
-RUN apt-get install -y helm 
+RUN  apt-get update \
+     &&  apt-get install -y helm 
 RUN mkdir --parents /root/.local/share/helm/plugins/helm-release 
 
 
