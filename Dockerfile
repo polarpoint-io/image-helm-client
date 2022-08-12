@@ -14,9 +14,9 @@ RUN    apt-get install apt-transport-https --yes && \
     echo "deb [trusted=yes] https://baltocdn.com/helm/stable/debian/ all main" |  tee /etc/apt/sources.list.d/helm-stable-debian.list
 
 RUN apt-get  -o  update \
-    && apt-get -o  install -y helm  \
-    && apt-get clean \
-    && mkdir --parents /root/.local/share/helm/plugins/helm-release 
+    && apt-get -o  install -y helm \
+    && apt-get clean 
+RUN mkdir --parents /root/.local/share/helm/plugins/helm-release 
 
 
 RUN helm plugin install https://github.com/chartmuseum/helm-push.git
