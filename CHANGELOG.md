@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.9.17](https://github.com/polarpoint-io/docker-helm-client/compare/v3.9.16...v3.9.17) (2022-11-11)
+
 ### 3.9.16 (2022-08-12)
 
 ### [3.9.15](https://gitsc.corp-apps.com/runa/docker-helm-client/compare/v3.9.14...v3.9.15) (2022-01-20)
