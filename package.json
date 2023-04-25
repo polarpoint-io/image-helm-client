@@ -9,11 +9,11 @@
     "release:major": "standard-version --release-as major"
   },
   "dependencies": {
-    "@commitlint/cli": "^12.1.1",
+    "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^12.1.1"
   },
   "devDependencies": {
-    "semantic-release": "^17.4.7",
+    "semantic-release": "^21.0.1",
     "standard-version": "^9.3.1"
   }
 }
